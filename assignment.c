@@ -6,8 +6,8 @@ int main(int argc, char* argv[])
 
     x+= 256; // 512
     x-= 256; // 256
-    x*= 256; // 512
-    x/= 256; // 64
+    x*= 2; // 512
+    x/= 8; // 64
     printf("x = %d\n", x);
 
     return 0;
